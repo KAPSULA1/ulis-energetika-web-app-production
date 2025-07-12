@@ -59,3 +59,6 @@ macos/Flutter/flutter_assets/
 # Windows specific
 windows/build/
 windows/flutter/ephemeral/
+
+# Local Netlify folder
+.netlify
