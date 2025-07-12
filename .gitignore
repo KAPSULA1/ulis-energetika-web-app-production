@@ -1,0 +1,61 @@
+# Project-specific files and directories
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.idea/
+.vscode/
+*.iml
+build/
+.DS_Store
+.env
+.env.*
+.gcloudignore
+
+# Crash reporting
+*.log
+
+# Android specific
+android/.gradle/
+android/local.properties
+android/key.properties
+android/build/
+android/app/build/
+android/app/src/debug/
+android/app/src/profile/
+android/app/*.iml
+
+# iOS specific
+ios/.symlinks/
+ios/Flutter/.last_build_id
+ios/Flutter/.ios_plugins
+ios/Runner.xcworkspace/
+ios/.flutter-plugins
+ios/.flutter-plugins-dependencies
+ios/.packages
+ios/Flutter/.last_build_id
+ios/Flutter/.ios_plugins
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/flutter_assets
+ios/build/
+ios/.xcode.env.local
+
+# Web specific
+web/index.html.iml
+
+# Linux specific
+linux/build/
+linux/cmake-build-*/
+
+# macOS specific
+macos/build/
+macos/Runner.xcodeproj/project.xcworkspace/
+macos/Runner.xcodeproj/xcuserdata/
+macos/Flutter/Flutter.framework/
+macos/Flutter/flutter_assets/
+
+# Windows specific
+windows/build/
+windows/flutter/ephemeral/
