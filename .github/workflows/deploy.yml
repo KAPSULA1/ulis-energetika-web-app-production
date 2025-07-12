@@ -30,6 +30,7 @@ jobs:
           publish-dir: build/web
           production-deploy: true
           deploy-message: "🚀 Auto deploy from GitHub Actions"
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ nfp_RYhb4B1w38uuj46pLaW3peCfr69RVfxeae94  }}
-          NETLIFY_SITE_ID: ${{ 63b23ca-24c8-4620-9ea5-76a01ef09abc }}
+          env:
+  NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+  NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
